@@ -15,6 +15,6 @@ process default_tcrdist {
         path("${input_filename}.archive.tar.gz") into output_channel
     
     """
-    default_tcrdist.py -i ${input_filename} --store_all_cdr False --chains beta
+    def_tcrdist.py -i ${input_filename} --store_all_cdr False --chains beta
     """
 } 
