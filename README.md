@@ -1,2 +1,2 @@
 # nf-tcrdist3
-tcrdist3 using cextflow
+tcrdist3 using Nextflow
